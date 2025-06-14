@@ -1,0 +1,98 @@
+/* style.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #121212;
+  color: #f1f1f1;
+  line-height: 1.6;
+  font-size: 16px;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+  border-bottom: 2px solid #444;
+  padding-bottom: 20px;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #00bcd4;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #aaa;
+}
+
+section {
+  max-width: 900px;
+  margin: auto;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #e0e0e0;
+  border-left: 5px solid #00bcd4;
+  padding-left: 15px;
+}
+
+article {
+  background: #1e1e1e;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 5px solid #00bcd4;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s ease;
+}
+
+article:hover {
+  transform: scale(1.02);
+}
+
+article h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+article p {
+  color: #cccccc;
+}
+
+footer {
+  text-align: center;
+  margin-top: 50px;
+  padding: 15px;
+  border-top: 2px solid #444;
+  color: #888;
+  font-size: 0.9rem;
+}
+
+/* Estilo elegante para los enlaces de proyectos dentro de <article> */
+article h3 a {
+  display: inline-block;
+  background-color: #00bcd4;
+  color: #ffffff;
+  padding: 8px 14px;
+  margin: 5px 0;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: background-color 0.25s ease, transform 0.2s ease;
+}
+
+/* Efecto al pasar el cursor */
+article h3 a:hover {
+  background-color: #0097a7;
+  transform: translateY(-2px);
+}
